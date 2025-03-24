@@ -1,0 +1,16 @@
+app-id: org.jaider.gestorsoftware
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+sdk: org.freedesktop.Sdk
+command: gestor-software.sh
+modules:
+  - name: gestor-software
+    buildsystem: simple
+    build-commands:
+      - install -D gestor-software.sh /app/bin/gestor-software.sh
+    sources:
+      - type: file
+        path: files/bin/gestor-software.sh
+finish-args:
+  - --share=network
+  - --filesystem=host

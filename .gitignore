@@ -1,0 +1,4 @@
+build-dir/
+*.flatpak
+*.tar.gz
+*.zip
