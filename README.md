@@ -1,4 +1,4 @@
-# 🧰 Gestor de Software (Flatpak)
+#  Gestor de Software (Flatpak)
 
 Una herramienta educativa en consola para sistemas Arch Linux que permite a estudiantes y usuarios avanzados:
 
@@ -7,7 +7,7 @@ Una herramienta educativa en consola para sistemas Arch Linux que permite a estu
 - 📄 Ver changelogs y detalles de instalación
 - 🗑️ Desinstalar paquetes de forma interactiva
 
-## 🚀 Instrucciones de instalación
+## Instrucciones de instalación
 
 ### 1. Instalar dependencias
 
